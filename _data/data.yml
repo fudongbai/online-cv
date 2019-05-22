@@ -154,22 +154,42 @@ projects:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Here is a list of my patents, mainly focused on Bluetooth area, most of
+      these patents comes from real world project development.
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    patents:
+      - title: "A Method for Bluetooth Device Pairing"
+        authors: Yanjun Shang, Fudong Bai, Xin Lee
+        serialnumber: "201710979616.1, 2017-10-19"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Bluetooth Reconnecting Method on External Adapter Replacement for Smart TV"
+        authors: Fudong Bai, Yanjun Shang, Jin Cheng, Xin Lee
+        serialnumber: "201710671833.4, 2017-08-08"
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "A Method for Dealing with Audio Input on Android"
+        authors: Jin Cheng, Fudong Bai, Jianzhu Xiu
+        serialnumber: "201710432096.2, 2017-06-09"
+
+      - title: "A Method and Display for Infrared Remote Control Devices"
+        authors: Fudong Bai, Yanjun Shang, Jia Jia, Xin Lee
+        serialnumber: "201710078572.5, 2017-02-14"
+
+      - title: "A Method and Device for Setting A2DP Sink Mode"
+        authors: Yanjun Shang, Fudong Bai, Xuchao Wang, Xin Lee
+        serialnumber: "201611161346.5, 2016-12-15"
+
+      - title: "A Method for Bluetooth Device Auto-reconnecting"
+        authors: Yanjun Shang, Fudong Bai, Chunbao Wang, Xin Lee
+        serialnumber: "201611153434.0, 2016-12-14"
+
+      - title: "A Method for Device Firmware Upgrading"
+        authors: Qingqing Zheng, Jin Cheng, Fudong Bai
+        serialnumber: "201610333465.8, 2016-05-18"
+
+      - title: "A Method for Bluetooth Pairing Test Automation"
+        authors: Yanjun Shang, Fudong Bai
+        serialnumber: "201610140330.X, 2016-03-11"
+
 
 skills:
     title: Skills &amp; Proficiency
