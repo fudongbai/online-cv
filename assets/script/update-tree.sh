@@ -11,5 +11,3 @@ awk 'BEGIN{RS="";FS="</script>"}
     }
  }
 }' tree.html > assets/js/knowledge-tree.js
-
-rm tree.html
