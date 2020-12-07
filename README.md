@@ -47,6 +47,21 @@ There are 6 color schemes available:
 |---------|---------|---------|
 | <img src="https://webjeda.com/online-cv/assets/images/berry.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/orange.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/ceramic.jpg" width="300"/> |
 
+
+
+## Add Knowledge Tree
+In order to generate a knowledge tree from markdown, the [markmap][markmap] needs
+to installed first:
+```sh
+$ brew install yarn
+$ yarn add markmap-lib
+$ yarn add markmap-view
+$ yarn global add markmap-cli
+
+$ markmap [-w] markmap.md   # -w: watch mode
+```
+
+
 ## Credits
 
 Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
@@ -58,3 +73,5 @@ Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
 ## License
 
 This project is licensed under the [MIT license](LICENSE.txt).
+
+[markmap]: https://github.com/gera2ld/markmap
