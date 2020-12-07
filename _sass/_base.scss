@@ -255,8 +255,12 @@ p {
     }
 }
 
-
-
+tree {
+    .item {
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+}
 
 .footer {
     padding-top: 30px;

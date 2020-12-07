@@ -8,18 +8,18 @@ sidebar:
 
     # Profile information
     name: Fudong Bai
-    tagline: Full Stack Developer
+    tagline: Kernel Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: fudongbai@gmail.com
     phone: 153 1887 6025
-    website: fudongbai.gitlab.io #do not add http://
-    linkedin: alandoe
+    website: # fudongbai.gitlab.io #do not add http://
+    linkedin: # fudong-bai-1805b769
     github: fudongbai
     gitlab: fudongbai
-    bitbucket:
-    twitter: '@webjeda'
+    bitbucket: fudongbai
+    twitter: '@fudong001'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -32,13 +32,13 @@ sidebar:
         level: Professional
 
     interests:
+      - item: Geeking
+        link:
+
       - item: Climbing
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Hiking
         link:
 
 career-profile:
@@ -182,23 +182,17 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: C
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Shell
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: Python
+        level: 80%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+tree:
+    title: Knowledge Tree
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -1,0 +1,21 @@
+{% assign tree = site.data.data.tree %}
+{% if tree %}
+<section class="tree-section section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-tree fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ tree.title }}
+  </h2>
+
+  <div class="tree">
+    <svg id="mindmap" style="width: 800px; height: 800px"></svg>
+    <script src="https://cdn.jsdelivr.net/npm/d3@6.3.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.1"></script>
+    <script src="assets/js/knowledge-tree.js"></script>
+  </div>
+
+</section><!--//tree-section-->
+{% endif %}
