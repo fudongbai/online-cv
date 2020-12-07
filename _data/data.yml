@@ -185,7 +185,16 @@ skills:
       - name: C
         level: 98%
 
+      - name: vim
+        level: 98%
+
       - name: Shell
+        level: 90%
+
+      - name: git
+        level: 90%
+
+      - name: gerrit
         level: 90%
 
       - name: Python
