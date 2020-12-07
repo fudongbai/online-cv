@@ -45,6 +45,7 @@
 ### kprobe
 ### uprobe
 ### kdump/crash
+### Kgb/kgdb
 
 ### ebpf
 #### bcc
@@ -60,6 +61,8 @@
 ### atrace
 #### systrace
 
+### Battery-Historian
+
 ### audio analyzer
 ### droidparser
 ### a2dp extractor
@@ -73,3 +76,9 @@
 ### c
 ### shell
 ### python
+
+## Other
+### OpenWrt
+### Syzkaller
+### Docker
+### Home Assistant
