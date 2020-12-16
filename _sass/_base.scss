@@ -213,6 +213,21 @@ p {
         }
     }
 
+    .side-projects-section {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .side-projects-section {
+        .intro {
+            margin-bottom: 30px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+    }
+
     .publication-title {
         font-size: 16px;
         font-weight: 400;
@@ -255,7 +270,7 @@ p {
     }
 }
 
-tree {
+.tree {
     .item {
         margin-bottom: 15px;
         overflow: hidden;

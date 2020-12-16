@@ -14,12 +14,12 @@ sidebar:
     # Sidebar links
     email: fudongbai@gmail.com
     phone: 133 6125 9221
-    website: # fudongbai.gitlab.io #do not add http://
+    website:  # fudongbai.gitlab.io #do not add http://
     linkedin: # fudong-bai-1805b769
-    github: # fudongbai
-    gitlab: # fudongbai
+    github:   # fudongbai
+    gitlab:   # fudongbai
     bitbucket: fudongbai
-    twitter: '@fudong001'
+    twitter:  # '@fudong001'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -44,99 +44,181 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Working in embedded system (both Linux and Android) for more than ten
+      years, first few years mainly working on bootloader (U-Boot) and kernel
+      driver development, and switched to Bluetooth area after back to Tsingtao
+      as the main job, while still focused on the low level layer, the hardware
+      abstract layer is also touched when bring new features to android system.
+      After handover of the Bluetooth development, I spent most of the time on
+      improving android performance, such as reducing boot time.
 
-      Second paragraph if required.
 
 education:
     - degree: MSc in Computer Science
       university: Heilongjiang University of Science and Technology
       time: 2006 - 2009
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Major in Computer science and focus on embedded Linux system.
 
-          - Bullet point
-          - Bullet point
+          - Familiar with ARM7/9 system
+          - Familiar with SOPC
+          - Familiar with Linux
 
     - degree: BSc in Computer Science
       university: Shandong University of Technology
       time: 2001 - 2006
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Major in Computer science, sound knowledge of data structure, digital
+        circuit.
 
-          - Bullet point
-          - Bullet point
+          - Good understanding of the principal of the MCU
+          - Keen to assembly
+          - Mastering web development
 
 experiences:
-    - role: Lead Developer
+    - role: Principal Engineer
       time: 2012 - Present
       company: Startup Hubs, TsingTao
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Work as Bluetooth protocol engineer, later on system performance
+        turning.
 
-          - Bullet point
-          - Bullet point
+          - Buletooth
+          - Kernel
 
     - role: Senior Software Engineer
       time: 2009 - 2012
       company: Ingenic Semiconductor, Peking
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Mainly focused on bootloader and kernel driver development
+        including sensors, input devices, LCD etc, these usually
+        engaged in I2C, SPI, LCD and input subsystem.
+        USB subsystem is also an interest part including write usb
+        gadget drviers such as fastboot driver for U-Boot and usb
+        device controller driver.
 
-          - Bullet point
-          - Bullet point
+          - Proximity Sensors (i2c)
+          - 4G modem (spi)
+          - CMMB receiver (spi)
+          - Accelerometer sensors (i2c)
+          - E-Compass sensors (i2c)
+          - Touchscreen (i2c)
+          - Nand flash driver
+          - LCD
+          - Ethernet (dm9000)
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      These are the projects that I am involved either I started (such as
+      pre-research product) or planed projects of the company.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      - title: Remote Control Air Mouse
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Experiencing mouse control on Android TV, based on Hillcrest solution."
 
-      - title: Tempo
+      - title: Remote Control Audio HAL for Android
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Support read audio data from remote control and vice versa"
+        details: |
+          - This follows the android standard audio input and out device
+          - Reduced data path compared to vendor's solution
+          - No kernel module required
 
-      - title: Atom
+      - title: OTA for BLE Remote Control
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "Update firmware of remote control via Bluetooth connection."
+        details: |
+          - Based on proprietary protocol
+          - Fail safe
+          - Multiple remote control support
 
-      - title: Delta
+      - title: Bluetooth Dongle for Android
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Universal Bluetooth dongle support for low end Android TV"
+
+      - title: Bluetooth Audio Analyzer
+        link: "#"
+        tagline: "This is a audio data analyzer for Bluetooth remote control which including the following features:"
+        details: |
+          - voice data loss detection
+          - extract pcm data from btsnoop
+          - VAD support from webrtc
+          - voice volume calculation
+          - voice data path time consumption break down
+
+      - title: Reducing Boot Time of Android
+        link: "#"
+        tagline: "The project is mainly focused on the first part of the android booting process, that is bootloader and kernel."
+        details: |
+
+
+side-projects:
+    title: Side Projects
+    intro: >
+      These are the projects that I am interested and made for personal use,
+      including tools I used for debugging and to make my life easier.
+
+    assignments:
+
+      - title: Smart Speaker (Voice Assistant)
+        link: "#"
+        tagline: "As I'm very sensitive to privacy, so I tend to build a voice assistant by myself, this project is based on mycroft"
+
+      - title: Wireless Serial Console
+        link: "#"
+        tagline: "This project is originally build from scratch and later switched to [esp-link](https://github.com/jeelabs/esp-link)."
+
+      - title: Wireless JTAG
+        link: "#"
+        tagline: "Based on Raspberry Pi"
+
+      - title: Smart Alarm
+        link: "#"
+        tagline: "Toy project made with Mini2440"
+        details: |
+          - Build with buildroot
+          - Support A2DP SINK
+          - Support Alarm (preset)
+          - Support play mp3
+
+      - title: Smart Home
+        link: "#"
+        tagline: "This project is build with Home Assistant project running on Phicomm N1, currently have the following features (automation)"
+        details: |
+          - Motion detection with android ip webcam
+          - Send notification to my phone when motion detected in the living room while I'm not home
+          - Control Android TV with esp8266 (IR control with web interface)
+          - Auto detection android TV playing status
+          - Play scheduled video for English learning every morning
+          - Play workout if detected my face (dlib)
+          - Turn off lights in living room at 11:00 pm, turn lamp in master room for 5 minutes at the same time
+
+      - title: Traffic Lights Recognition
+        link: "#"
+        tagline: "Raspberry Pi Zero"
+
+      - title: Home Router with OpenWrt
+        link: "#"
+        tagline: "Running OpenWrt on Raspberry Pi with the following features:"
+        details: |
+          - Web Interface
+          - USB Storage Auto Mount
+          - MiniDLNA
+          - Aira2
+
+      - title: Travel Router
+        link: "#"
+        tagline: "Build with OpenWrt on Raspberry Pi"
+        details: |
+          - [ ]  Add support for [Airdrop](https://github.com/seemoo-lab/owl)
+          - [ ]  Airdrop
+
+      - title: Local Private Docker registry
+        link: "#"
+        tagline: "Host docker images to save some bandwidth"
 
 publications:
     title: Publications
