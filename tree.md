@@ -49,6 +49,8 @@
 #### bpftrace
 #### pstore
 #### sysrq
+#### sysfs
+#### debugfs
 #### ftrace
 ##### trace-cmd
 ##### kernelshark
