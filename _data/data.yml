@@ -52,6 +52,8 @@ career-profile:
       After handover of the Bluetooth development, I spent most of the time on
       improving android performance, such as reducing boot time.
 
+      BTW, I've been using Ubuntu for work since 2019, when I start learning
+      Android 1.5.
 
 education:
     - degree: MSc in Computer Science
@@ -115,9 +117,28 @@ projects:
 
     assignments:
 
-      - title: Remote Control Air Mouse
+      - title: Android Performance Tuning
         link: "#"
-        tagline: "Experiencing mouse control on Android TV, based on Hillcrest solution."
+        tagline: "The project is mainly focused on the first part of the android booting process, that is bootloader and kernel."
+        details: |
+          - IRBoost
+          - Boot time
+          - IO
+          - DVFS
+
+      - title: Bluetooth Dongle for Android
+        link: "#"
+        tagline: "Universal Bluetooth dongle support for low end Android TV"
+
+      - title: Bluetooth Audio Analyzer
+        link: "#"
+        tagline: "This is a audio data analyzer for Bluetooth remote control which including the following features:"
+        details: |
+          - voice data loss detection
+          - extract pcm data from btsnoop
+          - VAD support from webrtc
+          - voice volume calculation
+          - voice data path time consumption break down
 
       - title: Remote Control Audio HAL for Android
         link: "#"
@@ -135,24 +156,10 @@ projects:
           - Fail safe
           - Multiple remote control support
 
-      - title: Bluetooth Dongle for Android
+      - title: Remote Control Air Mouse
         link: "#"
-        tagline: "Universal Bluetooth dongle support for low end Android TV"
+        tagline: "Experiencing mouse control on Android TV, based on Hillcrest solution."
 
-      - title: Bluetooth Audio Analyzer
-        link: "#"
-        tagline: "This is a audio data analyzer for Bluetooth remote control which including the following features:"
-        details: |
-          - voice data loss detection
-          - extract pcm data from btsnoop
-          - VAD support from webrtc
-          - voice volume calculation
-          - voice data path time consumption break down
-
-      - title: Reducing Boot Time of Android
-        link: "#"
-        tagline: "The project is mainly focused on the first part of the android booting process, that is bootloader and kernel."
-        details: |
 
 
 side-projects:

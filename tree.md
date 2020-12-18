@@ -7,6 +7,8 @@
 ### lcd
 ### uart
 ### btusb
+### storaged
+### cgroup
 
 ### input
 #### touchscreen
@@ -19,58 +21,67 @@
 #### g_fastboot
 
 ## Android
-### HAL
-#### btremote (audio in/out)
-#### remote.dfu
-#### btusb
-#### sensor
-
-
+### btusb
+### storaged
 ### bringup
 ### bluedroid
 #### autounpair
+#### btremote (audio in/out) (HAL)
+#### remote.dfu (HAL)
+### HAL
+#### sensor
+### build framework
 
 ### workload_automation
 
+
 ## debug
 
-### dynamic debug
-### kmemleak
-### OpenOCD+JTAG
+### kernel
+#### kprobe
+#### uprobe
+#### kdump/crash
+#### Kgb/kgdb
+#### dynamic debug
+#### kmemleak
+#### ebpf
+#### bcc
+#### bpftrace
+#### pstore
+#### sysrq
+#### ftrace
+##### trace-cmd
+##### kernelshark
+
 ### Asan
 #### UBsan
 #### IntSan
+
+### OpenOCD+JTAG
 ### gdb
-
-### kprobe
-### uprobe
-### kdump/crash
-### Kgb/kgdb
-
-### ebpf
-#### bcc
-####
 
 ### flamegraph
 ### heatmap
 
-### ftrace
-#### trace-cmd
-#### kernelshark
+### Android
+#### dumpsys
+#### uiautomator
+#### Battery-Historian
+#### atrace
+##### systrace
 
-### atrace
-#### systrace
-
-### Battery-Historian
-
-### audio analyzer
-### droidparser
-### a2dp extractor
-### input recorder
+### bluetooth
+#### audio analyzer
+#### droidparser
+#### a2dp extractor
+#### input recorder
+#### Ellisys Bluetooth Sniffer
+#### Ubertooth One
 
 ## rootfs
 ### buildroot
-### yocto
+### yocto project
+### busybox
 
 ## Language
 ### c
@@ -81,4 +92,6 @@
 ### OpenWrt
 ### Syzkaller
 ### Docker
+### LineageOS
 ### Home Assistant
+### HomeBridge
