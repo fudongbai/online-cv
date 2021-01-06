@@ -174,23 +174,6 @@ side-projects:
         link: "#"
         tagline: "As I'm very sensitive to privacy, so I tend to build a voice assistant by myself, this project is based on mycroft"
 
-      - title: Wireless Serial Console
-        link: "#"
-        tagline: "This project is originally build from scratch and later switched to [esp-link](https://github.com/jeelabs/esp-link)."
-
-      - title: Wireless JTAG
-        link: "#"
-        tagline: "Based on Raspberry Pi"
-
-      - title: Smart Alarm
-        link: "#"
-        tagline: "Toy project made with Mini2440"
-        details: |
-          - Build with buildroot
-          - Support A2DP SINK
-          - Support Alarm (preset)
-          - Support play mp3
-
       - title: Smart Home
         link: "#"
         tagline: "This project is build with Home Assistant project running on Phicomm N1, currently have the following features (automation)"
@@ -203,10 +186,6 @@ side-projects:
           - Play workout if detected my face (dlib)
           - Turn off lights in living room at 11:00 pm, turn lamp in master room for 5 minutes at the same time
 
-      - title: Traffic Lights Recognition
-        link: "#"
-        tagline: "Raspberry Pi Zero"
-
       - title: Home Router with OpenWrt
         link: "#"
         tagline: "Running OpenWrt on Raspberry Pi with the following features:"
@@ -215,17 +194,6 @@ side-projects:
           - USB Storage Auto Mount
           - MiniDLNA
           - Aira2
-
-      - title: Travel Router
-        link: "#"
-        tagline: "Build with OpenWrt on Raspberry Pi"
-        details: |
-          - [ ]  Add support for [Airdrop](https://github.com/seemoo-lab/owl)
-          - [ ]  Airdrop
-
-      - title: Local Private Docker registry
-        link: "#"
-        tagline: "Host docker images to save some bandwidth"
 
 publications:
     title: Publications
